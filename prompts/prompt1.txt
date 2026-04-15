@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+</head>
+<body>
+    <a href="https://juego-cazando-taupe.vercel.app/">Ir A Juego Cazando</a>
+    <a href="https://juego-limones-beta.vercel.app/">Ir A Juego Atrapar Limon</a>
+</body>
+</html>
+
+Dame lo solicitado paso a paso del documento dado por Krave
+
+Perfecto 👍 te explico paso a paso TODO lo que te están pidiendo, usando tu menú actual como base.
+
+✅ 🎯 OBJETIVO
+
+Convertir tu página en un menú profesional de proyectos con:
+
+Autor 👤
+Imagen/logo 🖼️
+Descripción 📄
+Proyectos 🎮
+Carpeta de prompts 🤖
+Buenas prácticas (commits + deploy) 🚀
+
+Perfecto 🔥 ahora sí lo dejamos bien separado: HTML + CSS + JS (como proyecto profesional).
+
+ESTRUCTURA FINAL (IMPORTANTE)
+/proyecto
+ ├── index.html
+ ├── menu.css
+ ├── menu.js
+ └── img/
+      └── yo.png
+✅ RESULTADO
+
+✔ Código ordenado (HTML separado de CSS y JS)
+✔ Diseño moderno
+✔ Botones interactivos
+✔ Cumples con lo que pide el profesor
+
+🔥 TIP PARA SUBIR NOTA
+
+En tu explicación puedes decir:
+
+👉 “Se separó la lógica (JS), estructura (HTML) y estilos (CSS) siguiendo buenas prácticas de desarrollo web.”
