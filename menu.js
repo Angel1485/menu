@@ -6,3 +6,9 @@ function abrirJuego(juego) {
         window.location.href = "https://juego-limones-beta.vercel.app/";
     }
 }
+
+function simuladorCredito(id) {
+    if (id === "simulador") {
+        window.location.href = "https://simulador-de-creditos-mu.vercel.app/";
+    } 
+}
