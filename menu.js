@@ -13,3 +13,9 @@ function simuladores(id) {
         window.location.href = "https://comisiones-delta.vercel.app/";
     }
 }
+
+function multiplicacion(id) {
+    if (id === "tablas") {
+        window.location.href = "https://progra-js-movilis2.vercel.app/";
+    } 
+}
