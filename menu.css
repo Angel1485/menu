@@ -27,25 +27,51 @@ p {
     color: #94a3b8;
 }
 
-/* BOTONES */
+/* CONTENEDOR DE PROYECTOS - DISTRIBUCIÓN HORIZONTAL (por defecto en PC) */
+.proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+/* BOTONES ESTILO HORIZONTAL EN PC */
 .proyectos button {
-    display: block;
-    width: 100%;
     background: #1e293b;
-    margin: 10px 0;
-    padding: 15px;
-    border-radius: 10px;
+    padding: 12px 20px;
+    border-radius: 40px;
     border: none;
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     cursor: pointer;
     transition: 0.3s;
+    white-space: nowrap;
 }
 
 /* HOVER */
 .proyectos button:hover {
     background: #38bdf8;
     transform: scale(1.05);
+}
+
+/* EN CELULAR: SE VUELVE VERTICAL */
+@media (max-width: 600px) {
+    .proyectos {
+        display: flex;
+        flex-direction: column;  /* Cambia a vertical */
+        align-items: stretch;
+        gap: 10px;
+    }
+    
+    .proyectos button {
+        white-space: normal;
+        width: 100%;
+        text-align: center;
+        border-radius: 10px;
+        padding: 15px;
+        font-size: 16px;
+    }
 }
 
 /* FOOTER CENTRADO ABAJO */
